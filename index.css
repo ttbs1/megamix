@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/04/2020, 03:34:41
+    Author     : Thiago
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@400;500&display=swap');
+
+:root {
+  --body-bg: radial-gradient(farthest-corner at 2% 2%, #ffffff, #fffafa, #f3f3f3, #f6f6f6, #f9f9f9, #e6e6e6);
+  --body-color: #3c3c3c;
+  --link-color: #f3f3f3;
+  --link-color-hover: orange;
+  --card-color: #c0c0c0;
+}
+
+.dark-mode:root {
+  --body-bg: radial-gradient(farthest-corner at 2% 2%, #4c4c4c, #494949, #3f3f3f, #363636, #303030, #2b2b2b);
+  --body-color: #f3f3f3;
+  --link-color: #f3f3f3;
+  --link-color-hover: orange;
+  --card-color: #282828;
+}
+
+body {
+    font-family: "Grandstander", sans-serif;
+    text-align: center;
+    background-image: url('util/bg.jpg');
+}
+
+h1 {
+    font-weight: 900;
+    color: darkblue;
+    font-size: 55px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.pad {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#pdf {
+    background-color: white;
+    padding: 10px;
+}
+
+
